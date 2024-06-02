@@ -54,7 +54,7 @@ if(funny === 'seven') {
 const embed7 = new EmbedBuilder()
   .setColor(client.color)
   .setFooter({ text: `Requested by ` + interaction.member.user.username , iconURL: interaction.member.user.displayAvatarURL({ dynamic: true})})
-    .setAuthor({name: `CodeX Help Panel`,iconURL: client.user.displayAvatarURL()})
+    .setAuthor({name: `Help Panel`,iconURL: client.user.displayAvatarURL()})
 .setTitle("**__Image__**")
   .setDescription(`\n\n\`achi, fuck, slap, cat, dog, meeting\`\n\n`)
   interaction.update({embeds: [embed7], ephemeral: true})
@@ -62,7 +62,7 @@ const embed7 = new EmbedBuilder()
 }
 if(funny === 'sixth') {
    const embed6 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Moderation__**")
       .setDescription(`\n\n\`lock, unlock, lockall, unlockall, hide, unhide, hideall, unhideall, ban, hackban, unban, unbanall, kick, mute, unmute, purge, nuke, purgebots\`\n\n`)
@@ -77,7 +77,7 @@ if(funny === 'sixth') {
 
 if(funny === 'fifth') {
   const embed2 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
 .setDescription(`<a:x_dot:1241064280124817529> Prefix on this server : \`${client.config.prefix}\`\n<a:x_dot:1241064280124817529> Type **\`${client.config.prefix}\`help** for more info\n<a:x_dot:1241064280124817529> Total commands: \`${client.commands.size}\`\n**[Invite Me](${config.links.invite}) | [Support HQ](${config.links.support})**`)
    .addFields([
@@ -94,7 +94,7 @@ if(funny === 'fifth') {
 
 if(funny === 'first') {
   const embed4 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Information__**")
       .setDescription(`\n\n\`about, invite, ping, node, stats, help, avatar, banner, servericon, serverbanner, userinfo, serverinfo, uptime, firstmsg, roleinfo, profile, membercount, bug, announce, embedsay, boostcount, dm\`\n\n`)
@@ -109,7 +109,7 @@ if(funny === 'first') {
 if(funny === 'second') {
   const embed5 = new EmbedBuilder()
    
-  .setAuthor({name:`CodeX Help Panel`,iconURL:client.user.displayAvatarURL()})
+  .setAuthor({name:`Help Panel`,iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Music__**")
     .setDescription(`\n\n\`play, join, leave, loop, Autoplay, pause, lyrics, nowplaying, previous, queue, resume, skip, remove, seek, volume, search, shuffle, grab, skipto, clearqueue, 247, filters, p_create, p_delete, p_savecurrent, p_savequeue, p_removetrack, p_load, p_info, p_list\`\n\n`)
     
@@ -125,7 +125,7 @@ if(funny === 'second') {
 const embed18 = new EmbedBuilder()
   .setColor(client.color)
   .setFooter({ text: `Requested by ` + interaction.member.user.username, iconURL: interaction.member.user.displayAvatarURL({ dynamic: true})})
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
   
 .setTitle("**__Fun__**")
@@ -135,7 +135,7 @@ const embed18 = new EmbedBuilder()
   }
   if(funny === 'fourth') {
   const embed6 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Settings__**")
       .setDescription(`\n\n\`adddj, removedj, toggledj, prefix\`\n\n`)
@@ -150,7 +150,7 @@ const embed18 = new EmbedBuilder()
 
    if(funny === 'nineth') {
   const embedn = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Custom Roles__**")
       .setDescription(`\n\n\`rsetup, vip, guest, friend, official, girl, rgirl, rvip, rofficial, rguest, rfriend\`\n\n`)
@@ -164,7 +164,7 @@ const embed18 = new EmbedBuilder()
    }
   if(funny === 'tenth') {
   const embed6 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Giveaway__**")
       .setDescription(`\n\n\`gstart, gend, greroll, glist\`\n\n`)
@@ -179,7 +179,7 @@ const embed18 = new EmbedBuilder()
 
   if(funny === 'eleventh') {
   const embed6 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**Voice**")
       .setDescription(`\n\n\`vcmute, vcunmute, vcdeafen, vcundeafen, vckick, vclist, vcmove\`\n\n`)
@@ -193,7 +193,7 @@ const embed18 = new EmbedBuilder()
   }
   if(funny === 'xdnsfw') {
   const embed6 = new EmbedBuilder()
-    .setAuthor({name:`CodeX Help Panel`,
+    .setAuthor({name:`Help Panel`,
       iconURL:client.user.displayAvatarURL()})
     .setTitle("**__Nsfw__**")
       .setDescription(`\n\n\`aass, abdsm, ablowjob, acum, adoujin, afeet, afemdom, afoxgirl, agif, aglasses, ahentai, amaid, amasturbation, anetorare, apanties, aorgy, apussy, aschool, asuccubus, atentacles, auniform, athighs, ayuri\`\n\n`)
@@ -207,7 +207,7 @@ const embed18 = new EmbedBuilder()
     }
   if(funny === 'owner') {
     const embed6 = new EmbedBuilder()
-      .setAuthor({name:`CodeX Help Panel`,
+      .setAuthor({name:`Help Panel`,
         iconURL:client.user.displayAvatarURL()})
       .setTitle("**__Owner__**")
         .setDescription(`\n\n\`eval, leaveserver, noprefix, reload, say, serverlist\`\n\n`)
